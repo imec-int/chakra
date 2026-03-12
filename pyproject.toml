@@ -15,10 +15,16 @@ authors = [
     {name = "MLCommons", email = "chakra@mlcommons.org"},
 ]
 dependencies = [
-    "protobuf",
+    "protobuf"
+]
+
+[project.optional-dependencies]
+visualizer = [
     "graphviz",
     "networkx",
-    "pydot",
+    "pydot"
+]
+trace_link = [
     "HolisticTraceAnalysis @ git+https://github.com/facebookresearch/HolisticTraceAnalysis.git@d731cc2e2249976c97129d409a83bd53d93051f6"
 ]
 
