@@ -1,8 +1,7 @@
 [build-system]
 requires = [ "setuptools>=61",
   "wheel",
-  "setuptools-grpc",
-  "grpcio-tools"]
+  "setuptools-grpc"]
 build-backend = "setuptools.build_meta"
 
 [project]
